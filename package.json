@@ -1,0 +1,37 @@
+{
+  "name": "react-component",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@aspnet/signalr": "^1.1.4",
+    "@progress/kendo-data-query": "^1.5.1",
+    "@progress/kendo-react-excel-export": "^3.2.2",
+    "@sentry/browser": "^5.4.3",
+    "antd": "^3.15.2",
+    "history": "^4.9.0",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5",
+    "react-loadable": "^5.5.0",
+    "react-redux": "^6.0.1",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.8",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "proxy": "https://foundation.developmentyard.net",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

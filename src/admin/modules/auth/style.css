@@ -1,0 +1,108 @@
+.App {
+  width: 100%;
+  text-align: left;
+}
+  
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+input[type="checkbox"] {
+  background: #7cb305;
+}
+
+.logo {
+  margin: 2em auto;
+  display: block;
+  width: 120px;
+}
+
+.chat-addon {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+
+.chat-btn-wrapper {
+  position: relative;
+  top: 600px;
+  margin-top: 1em;
+}
+
+.chat-btn-wrapper.active {top: 0;}
+
+.chat-btn-wrapper span {
+  background-color: #fa3e3e;
+  color: white;
+  padding: 1px 3px;
+  font-size: 10px;
+  border-radius: 19px;
+  position: absolute; 
+  top: 70%;
+  left: 28px;
+}
+
+.login-form-forgot {
+  float: right;
+}
+.login-form-button {
+  width: 100%;
+}
+
+
+.example-wrapper {
+  width: 800px;
+  margin: 1em auto;
+}
+
+.formInput {
+  margin: 1em auto;
+  margin-right: 1em;
+  font-weight: bold;
+}
+
+.formInput input {
+  display: block;
+  width: 100%;
+  border: none;
+  padding: .5em 0;
+  margin: .5em auto;
+  border-bottom: 2px solid #ddd;
+  background: transparent;
+  outline: none;
+  display: inline-block;
+  width: 100%;
+}
+
+.formInput input:focus {
+  border-bottom: 2px solid #00d4e3;
+  transition: border-bottom 0.3s cubic-bezier(0,.99,.97,.2);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+  
