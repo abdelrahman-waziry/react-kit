@@ -1,4 +1,4 @@
-# Foundation Components - React Component
+# React MVC starter kit
 
 ## Install
 
