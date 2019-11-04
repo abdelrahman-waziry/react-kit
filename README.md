@@ -2,7 +2,7 @@
 
 ## Install
 
-    $ git clone https://starwalletlabs.visualstudio.com/Foundation%20Components/_git/ReactComponet
+    $ git clone https://github.com/abdelrahman-waziry/react-kit.git
     $ cd ReactComponent
     $ npm install
 
