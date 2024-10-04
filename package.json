@@ -6,7 +6,7 @@
     "@aspnet/signalr": "^1.1.4",
     "@progress/kendo-data-query": "^1.5.1",
     "@progress/kendo-react-excel-export": "^3.2.2",
-    "@sentry/browser": "^5.4.3",
+    "@sentry/browser": "^7.119.1",
     "antd": "^3.15.2",
     "history": "^4.9.0",
     "react": "^16.8.5",
